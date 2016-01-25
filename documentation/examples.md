@@ -38,7 +38,7 @@ var zip = new JSZip();
 
 On this instance, we can add (and update) files and folders with
 `.file(name, content)` and `.folder(name)`.
-They return the current JSZip instance so you can chain the calls.
+They return a [ZipObject](http://stuk.github.io/jszip/documentation/api_zipobject.html).
 
 ```js
 // create a file
